@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+body {
+  font-family: 'Red Rose', cursive;
+  width: 70%;
+  border: 7px solid black;
+  margin: 50px auto;
+  height: 100%;
+}
+#header {
+  background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.head{
+  float: left;
+}
+h3{
+  font-size: 30px;
+  font-family: 'Aladin', cursive;
+}
+h5{
+  font-size: 25px;
+  font-family: 'Satisfy', cursive;
+
+}
+.App {
+  text-align: center;
+}
+.name {
+  border: 5px solid black;
+  background-color: coral;
+}
+
+.box {
+  margin: 0px;
+  padding-top: 0px;
+  border-bottom: 8px solid black;
+}
+.box1 {
+  background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  padding-left: 20px;
+  border-bottom: 8px solid black;
+}
+.titles {
+  float: left;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.photo {
+  float: right;
+}
+h3 {
+  padding-top: 10px;
+  margin-top: 0px;
+}
+.p {
+  float: right;
+  margin-top: 5px;
+}
+.pass{
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 180px;
+  height: 150px;
+}
+.icons img {
+  margin-right: 10px;
+  display: inline-block;
+}
